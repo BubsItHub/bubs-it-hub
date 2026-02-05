@@ -1,9 +1,9 @@
-import "./index.css";
-export default function BubsITHubPreview() {
+export default function App() {
+
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
       {/* Hero Section */}
-      <section className="hero"> 
+      <section className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">BubsIT Hub</h1>
         <p className="text-xl mb-6">Friendly, Reliable Computer Help — Right When You Need It</p>
         <p className="max-w-2xl mx-auto mb-8">
@@ -28,15 +28,15 @@ export default function BubsITHubPreview() {
           Every situation is different. We’re happy to review your needs and provide a personalized quote.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-         <div className="card text-center">
+          <div className="bg-white rounded-2xl shadow p-6 text-center">
             <h3 className="text-xl font-semibold mb-2">Computer Repair</h3>
             <p>Operating system reinstallations, virus removal, slow computer fixes, and troubleshooting.</p>
           </div>
-          <div className="card text-center">
+          <div className="bg-white rounded-2xl shadow p-6 text-center">
             <h3 className="text-xl font-semibold mb-2">New Computer Setup</h3>
             <p>We remove bloatware, install essential software, and get your new device ready to use.</p>
           </div>
-          <div className="card text-center">
+          <div className="bg-white rounded-2xl shadow p-6 text-center">
             <h3 className="text-xl font-semibold mb-2">Tech Help & Tutorials</h3>
             <p>One-on-one help to learn your computer, email, backups, or everyday technology.</p>
           </div>
