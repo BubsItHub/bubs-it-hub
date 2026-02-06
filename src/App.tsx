@@ -71,10 +71,6 @@ export default function App() {
             </div>
           </div>
 
-          <p className="mt-10 max-w-3xl mx-auto">
-            You can book us for a half‑day or full‑day visit. During that time, we will assist as many people as we can with issues or questions they may have.
-          </p>
-
           <a href="#contact" className="inline-block mt-8 bg-blue-600 text-white font-semibold px-6 py-3 rounded-2xl shadow hover:scale-105 transition">
             Book a Senior Tech Day
           </a>
