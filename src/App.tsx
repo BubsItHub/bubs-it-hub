@@ -17,7 +17,6 @@ export default function App() {
       {/* Services Section */}
       <section className="py-16 px-6 max-w-6xl mx-auto">
         <div className="flex flex-col items-center mb-12">
-          <img src="https://via.placeholder.com/800x450.png?text=Services+We+Offer" alt="Services We Offer" className="max-w-md w-full rounded-2xl shadow mb-6" />
           <h2 className="text-3xl font-bold text-center flex items-center justify-center gap-2">
             <span>🔧</span>
             Our Services
