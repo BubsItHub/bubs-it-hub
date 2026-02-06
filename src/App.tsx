@@ -7,7 +7,7 @@ export default function App() {
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Bubs IT Hub</h1>
         <p className="text-xl mb-6">Friendly, Reliable and Fully Mobile Computer Help Right When You Need It</p>
         <p className="max-w-2xl mx-auto mb-8">
-          Local computer repair, setup, and tech support for homes and small businesses in Ontario.
+          Local computer repair, setup, and tech support for Homes and Communities in Cornwall and Surrounding areas.
         </p>
         <a href="#contact" className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-2xl shadow-lg hover:scale-105 transition">
           Book a Service
@@ -88,7 +88,7 @@ export default function App() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">About Bubs IT Hub</h2>
           <p className="text-lg mb-10">
-            Bubs IT Hub is a locally owned computer service company focused on honest advice, clear communication,
+            We strive to be affordable and accessible focusing on honest advice, clear communication,
             and friendly support. We believe technology should work for you — not against you.
           </p>
 
@@ -139,7 +139,7 @@ export default function App() {
         <p className="mt-10 font-semibold">
           📧 <a href="mailto:bubsithub@outlook.com" className="text-blue-600 hover:underline">bubsithub@outlook.com</a><br />
           💬 <a href="https://www.facebook.com/profile.php?id=61586952975446" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Message us on Facebook</a><br />
-          📍 Serving Cornwall and Surrounding Area
+          📍 Serving Cornwall, Long Sault, Ingleside, Morrisburg, Lancaster, Maxville and Alexandria 
         </p>
       </section>
 
