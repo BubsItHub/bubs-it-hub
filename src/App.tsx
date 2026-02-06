@@ -100,11 +100,11 @@ export default function App() {
             </div>
             <div className="bg-gray-50 rounded-2xl p-6 shadow">
               <h4 className="font-semibold mb-2">✔ Easy, Plain Language</h4>
-              <p>No confusing tech talk. We explain things in a way that actually makes sense.</p>
+              <p>No confusing tech talk. We explain things in a way that you can understand.</p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-6 shadow">
               <h4 className="font-semibold mb-2">✔ Mobile & Convenient</h4>
-              <p>We’re fully mobile — we come to you, so you don’t have to disconnect or transport your computer.</p>
+              <p>We’re fully mobile — we come to you, so you don’t have to disconnect or transport your devices.</p>
             </div>
           </div>
         </div>
