@@ -5,7 +5,7 @@ export default function App() {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Bubs IT Hub</h1>
-        <p className="text-xl mb-6">Friendly, Reliable Computer Help — Right When You Need It</p>
+        <p className="text-xl mb-6">Friendly, Reliable and Fully Mobile Computer Help — Right When You Need It</p>
         <p className="max-w-2xl mx-auto mb-8">
           Local computer repair, setup, and tech support for homes and small businesses in Ontario.
         </p>
@@ -68,8 +68,8 @@ export default function App() {
               <p>No rushing, no pressure — just clear explanations at a comfortable pace.</p>
             </div>
             <div className="bg-white rounded-2xl shadow p-6">
-              <h4 className="font-semibold mb-2">✔ Fully Mobile</h4>
-              <p>We come directly to you and spend our time assisting those who have tech issues or questions.</p>
+              <h4 className="font-semibold mb-2">✔ Booking</h4>
+              <p>You can book us for a half‑day or full‑day visit. During that time, we will assist as many people as we can with issues or questions they may have.</p>
             </div>
           </div>
 
