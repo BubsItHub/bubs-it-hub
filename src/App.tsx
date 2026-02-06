@@ -114,15 +114,15 @@ export default function App() {
           <form action="https://formspree.io/f/xlgwrzor" method="POST" className="space-y-4">
             <div>
               <label className="block font-semibold mb-1">Name</label>
-              <input type="text" className="w-full border rounded-xl p-3" placeholder="Your name" />
+              <input type="text" name="name" required className="w-full border rounded-xl p-3" />
             </div>
             <div>
               <label className="block font-semibold mb-1">Email</label>
-              <input type="email" className="w-full border rounded-xl p-3" placeholder="you@example.com" />
+              <input type="email" name="email" required className="w-full border rounded-xl p-3" />
             </div>
             <div>
               <label className="block font-semibold mb-1">How can we help?</label>
-              <textarea className="w-full border rounded-xl p-3" rows={4} placeholder="Describe the issue or service you need"></textarea>
+              <textarea name="message" required className="w-full border rounded-xl p-3" rows={4}></textarea>
             </div>
             <button type="submit" className="w-full bg-blue-600 text-white font-semibold py-3 rounded-2xl hover:scale-105 transition">
               Request a Quote
