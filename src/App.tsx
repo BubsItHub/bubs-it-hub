@@ -4,7 +4,7 @@ export default function App() {
     <div className="min-h-screen bg-gray-50 text-gray-800">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20 px-6 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-red-600">BubsIT Hub</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">BubsIT Hub</h1>
         <p className="text-xl mb-6">Friendly, Reliable Computer Help — Right When You Need It</p>
         <p className="max-w-2xl mx-auto mb-8">
           Local computer repair, setup, and tech support for homes and small businesses in Ontario.
