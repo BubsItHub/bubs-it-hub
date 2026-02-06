@@ -106,7 +106,7 @@ export default function App() {
 
       {/* Contact Section */}
       <section id="contact" className="py-16 px-6 text-center">
-        <h2 className="text-3xl font-bold mb-6">Contact Us for a Quote</h2>
+        <h2 className="text-3xl font-bold mb-6">Contact Us For A Quote</h2>
         <p className="mb-4">Tell us what’s going on and we’ll get back to you as soon as possible.</p>
         <p className="mb-8 text-sm text-gray-600">⏱ We typically respond within <strong>8 hours</strong>.</p>
 
