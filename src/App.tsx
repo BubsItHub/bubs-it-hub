@@ -7,7 +7,7 @@ export default function App() {
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Bubs IT Hub</h1>
         <p className="text-xl mb-6"> Friendly - Affordable - Reliable - Fully Mobile</p>
         <p className="max-w-2xl mx-auto mb-8">
-          Local computer repair, setup, and tech support for homes and communities in Cornwall and surrounding areas.
+          Local computer repair, setup, and tech support. We service homes and communities in Cornwall and surrounding areas.
         </p>
         <a href="#contact" className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-2xl shadow-lg hover:scale-105 transition">
           Book a Service
