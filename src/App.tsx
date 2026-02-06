@@ -63,7 +63,7 @@ export default function App() {
             </div>
             <div className="bg-white rounded-2xl shadow p-6">
               <h4 className="font-semibold mb-2">✔ Friendly & Patient Support</h4>
-              <p>No rushing, no pressure — just clear explanations at a comfortable pace.</p>
+              <p>No rushing. No pressure. Just clear explanations at a comfortable pace.</p>
             </div>
             <div className="bg-white rounded-2xl shadow p-6">
               <h4 className="font-semibold mb-2">✔ Booking</h4>
@@ -83,7 +83,7 @@ export default function App() {
           <h2 className="text-3xl font-bold mb-6">About Bubs IT Hub</h2>
           <p className="text-lg mb-10">
             We strive to be affordable and accessible focusing on honest advice, clear communication,
-            and friendly support. We believe technology should work for you — not against you.
+            and friendly support. We believe technology should work for you, not against you.
           </p>
 
           <h3 className="text-2xl font-bold mb-6">Why Choose Us?</h3>
@@ -98,7 +98,7 @@ export default function App() {
             </div>
             <div className="bg-gray-50 rounded-2xl p-6 shadow">
               <h4 className="font-semibold mb-2">✔ Mobile & Convenient</h4>
-              <p>We’re fully mobile — we come to you, so you don’t have to disconnect or transport your devices.</p>
+              <p>We’re fully mobile. We come to you so you don’t have to disconnect or transport your devices.</p>
             </div>
           </div>
         </div>
