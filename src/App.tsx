@@ -111,7 +111,7 @@ export default function App() {
         <p className="mb-8 text-sm text-gray-600">⏱ We typically respond within <strong>8 hours</strong>.</p>
 
         <div className="max-w-xl mx-auto bg-white rounded-2xl shadow p-8 text-left">
-          <form className="space-y-4">
+          <form action="https://formspree.io/f/xlgwrzor" method="POST" className="space-y-4">
             <div>
               <label className="block font-semibold mb-1">Name</label>
               <input type="text" className="w-full border rounded-xl p-3" placeholder="Your name" />
