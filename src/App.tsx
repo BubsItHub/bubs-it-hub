@@ -69,7 +69,7 @@ export default function App() {
             </div>
             <div className="bg-white rounded-2xl shadow p-6">
               <h4 className="font-semibold mb-2">✔ Fully Mobile</h4>
-              <p>We come directly to your facility and spend the day helping residents/seniors where they’re most comfortable.</p>
+              <p>We come directly to your facility and spend the day helping residents and seniors where they’re most comfortable.</p>
             </div>
           </div>
 
