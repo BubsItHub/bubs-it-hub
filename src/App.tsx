@@ -46,7 +46,6 @@ export default function App() {
       <section className="py-16 px-6 bg-gray-50">
         <div className="max-w-5xl mx-auto text-center">
           <div className="flex flex-col items-center mb-6">
-            <img src="https://via.placeholder.com/800x450.png?text=Senior+Tech+Day" alt="Senior Tech Day" className="max-w-md w-full rounded-2xl shadow mb-4" />
             <h2 className="text-3xl font-bold flex items-center justify-center gap-4">
               <span className="text-3xl">👴</span>
               Senior Tech Days
