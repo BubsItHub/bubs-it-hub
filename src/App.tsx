@@ -2,166 +2,144 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
-      {/* Top Navigation */}
-      <header className="bg-white shadow sticky top-0 z-50">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="text-xl font-bold text-blue-600">BubsIT Hub</div>
-          <nav className="hidden md:flex gap-6 font-medium">
-            <a href="#services" className="hover:text-blue-600">Services</a>
-            <a href="#seniors" className="hover:text-blue-600">Senior Tech Days</a>
-            <a href="#about" className="hover:text-blue-600">About</a>
-            <a href="#contact" className="hover:text-blue-600">Contact</a>
-          </nav>
-          <a href="#contact" className="bg-blue-600 text-white px-4 py-2 rounded-xl shadow hover:scale-105 transition">
-            Book
-          </a>
-        </div>
-      </header>
-
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-24 px-6 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">BubsIT Hub</h1>
-        <p className="text-xl mb-4">Friendly, Reliable Computer Help — Right When You Need It</p>
-        <p className="max-w-2xl mx-auto mb-2">
-          Local computer repair, setup, and tech support for homes and small businesses.
+      <section className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20 px-6 text-center">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">Bubs IT Hub</h1>
+        <p className="text-xl mb-6"> Friendly - Affordable - Reliable - Fully Mobile</p>
+        <p className="max-w-2xl mx-auto mb-8">
+          Local computer repair, setup, and tech support. We service homes and communities in Cornwall and surrounding areas.
         </p>
-        <p className="max-w-2xl mx-auto mb-8 font-semibold">
-          📍 Serving Cornwall & Surrounding Area
-        </p>
-        <a href="#contact" className="inline-block bg-white text-blue-600 font-semibold px-8 py-3 rounded-2xl shadow-lg hover:scale-105 transition">
-          Get a Quote
+        <a href="#contact" className="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-2xl shadow-lg hover:scale-105 transition">
+          Book a Service
         </a>
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 px-6 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-4">Our Services</h2>
-        <p className="text-center max-w-2xl mx-auto mb-12 text-lg">
-          Every situation is different. We review your needs and provide a clear, personalized quote.
+      <section className="py-16 px-6 max-w-6xl mx-auto">
+        <div className="flex flex-col items-center mb-12">
+          <h2 className="text-3xl font-bold text-center flex items-center justify-center gap-2">
+            <span>🔧</span>
+            Our Services
+            <span>🔧</span>
+          </h2>
+        </div>
+        <p className="text-center max-w-2xl mx-auto mb-10 text-lg">
+          Every situation is different. We’re happy to review your needs and provide a personalized quote.
         </p>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white rounded-2xl shadow p-8 text-center hover:shadow-lg transition">
-            <div className="text-3xl mb-3">🔧</div>
+          <div className="bg-white rounded-2xl shadow p-6 text-center">
             <h3 className="text-xl font-semibold mb-2">Computer Repair</h3>
-            <p>OS reinstalls, virus removal, slow computer fixes, and troubleshooting.</p>
+            <p>Operating system reinstallations, virus removal, slow computer fixes, and troubleshooting.</p>
           </div>
-
-          <div className="bg-white rounded-2xl shadow p-8 text-center hover:shadow-lg transition">
-            <div className="text-3xl mb-3">💻</div>
+          <div className="bg-white rounded-2xl shadow p-6 text-center">
             <h3 className="text-xl font-semibold mb-2">New Computer Setup</h3>
-            <p>Bloatware removal, essential software install, and full device setup.</p>
+            <p>We remove bloatware, install essential software, and get your new device ready to use.</p>
           </div>
-
-          <div className="bg-white rounded-2xl shadow p-8 text-center hover:shadow-lg transition">
-            <div className="text-3xl mb-3">🎓</div>
-            <h3 className="text-xl font-semibold mb-2">Tech Help & Training</h3>
-            <p>One‑on‑one help with email, backups, devices, and everyday tech.</p>
+          <div className="bg-white rounded-2xl shadow p-6 text-center">
+            <h3 className="text-xl font-semibold mb-2">Tech Help & Tutorials</h3>
+            <p>One-on-one help to learn your computer, email, backups, or everyday technology.</p>
           </div>
         </div>
       </section>
 
-      {/* Senior Tech Days */}
-      <section id="seniors" className="py-20 px-6 bg-gray-100">
+      {/* Senior Tech Days Section with Pixel Emoji Characters Beside Text */}
+      <section className="py-16 px-6 bg-gray-50">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6">Senior Tech Days</h2>
-          <p className="text-lg mb-8">
-            We partner with retirement homes and senior communities to provide friendly,
-            hands‑on technology help directly on site.
-          </p>
-
-          <div className="bg-white rounded-2xl shadow p-8 mb-10">
-            <p className="font-semibold text-lg">
-              Facilities book the visit — residents receive help at no cost.
-            </p>
+          <div className="flex flex-col items-center mb-6">
+            <h2 className="text-3xl font-bold flex items-center justify-center gap-4">
+              <span className="text-3xl">👴</span>
+              Senior Tech Days
+              <span className="text-3xl">👵</span>
+            </h2>
           </div>
+          <p className="text-lg mb-8 max-w-3xl mx-auto">
+            We would love to partner with senior communities in Cornwall and surrounding areas to provide friendly, hands‑on technology help.
+          </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
             <div className="bg-white rounded-2xl shadow p-6">
               <h4 className="font-semibold mb-2">✔ One‑on‑One Help</h4>
-              <p>Computers, tablets, phones, email, and everyday tech questions.</p>
+              <p>Personal assistance with computers, tablets, phones, email, and everyday tech questions.</p>
             </div>
-
             <div className="bg-white rounded-2xl shadow p-6">
-              <h4 className="font-semibold mb-2">✔ Patient Support</h4>
-              <p>Clear explanations at a comfortable pace — no pressure.</p>
+              <h4 className="font-semibold mb-2">✔ Friendly & Patient Support</h4>
+              <p>No rushing. No pressure. Just clear explanations at a comfortable pace.</p>
             </div>
-
             <div className="bg-white rounded-2xl shadow p-6">
-              <h4 className="font-semibold mb-2">✔ Fully Mobile</h4>
-              <p>We come directly to the facility and help residents where they are.</p>
+              <h4 className="font-semibold mb-2">✔ Booking</h4>
+              <p>You can book us for a half‑day or full‑day visit. During that time, we will assist as many people as we can with issues or questions they may have.</p>
             </div>
           </div>
 
-          <a href="#contact" className="inline-block mt-10 bg-blue-600 text-white font-semibold px-8 py-3 rounded-2xl shadow hover:scale-105 transition">
+          <a href="#contact" className="inline-block mt-8 bg-blue-600 text-white font-semibold px-6 py-3 rounded-2xl shadow hover:scale-105 transition">
             Book a Senior Tech Day
           </a>
         </div>
       </section>
 
-      {/* About */}
-      <section id="about" className="bg-white py-20 px-6">
+      {/* About Section */}
+      <section className="bg-white py-16 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6">About BubsIT Hub</h2>
+          <h2 className="text-3xl font-bold mb-6">About Bubs IT Hub</h2>
           <p className="text-lg mb-10">
-            We’re a locally owned computer service company focused on honest advice,
-            clear communication, and friendly support. Technology should work for you — not against you.
+            We strive to be affordable and accessible focusing on honest advice, clear communication,
+            and friendly support. We believe technology should work for you, not against you.
           </p>
 
+          <h3 className="text-2xl font-bold mb-6">Why Choose Us?</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
             <div className="bg-gray-50 rounded-2xl p-6 shadow">
               <h4 className="font-semibold mb-2">✔ Local & Trustworthy</h4>
-              <p>Cornwall‑area service with honest, reliable support.</p>
+              <p>We’re a Cornwall‑based local business that values honesty, reliability, and clear explanations.</p>
             </div>
-
             <div className="bg-gray-50 rounded-2xl p-6 shadow">
-              <h4 className="font-semibold mb-2">✔ Plain Language</h4>
-              <p>No confusing tech talk — just clear explanations.</p>
+              <h4 className="font-semibold mb-2">✔ Clear Communication</h4>
+              <p>No confusing tech talk. We explain things in a way that you can understand.</p>
             </div>
-
             <div className="bg-gray-50 rounded-2xl p-6 shadow">
-              <h4 className="font-semibold mb-2">✔ Convenient</h4>
-              <p>Mobile service — we come to you.</p>
+              <h4 className="font-semibold mb-2">✔ Mobile & Convenient</h4>
+              <p>We’re fully mobile. We come to you so you don’t have to disconnect or transport your devices.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Contact */}
-      <section id="contact" className="py-20 px-6 text-center bg-gray-100">
-        <h2 className="text-3xl font-bold mb-6">Request a Quote</h2>
-        <p className="mb-8">We typically respond within 8 hours.</p>
+      {/* Contact Section */}
+      <section id="contact" className="py-16 px-6 text-center">
+        <h2 className="text-3xl font-bold mb-6">Contact Us For A Quote</h2>
+        <p className="mb-4">Tell us what’s going on and we’ll get back to you as soon as possible.</p>
+        <p className="mb-8 text-sm text-gray-600">⏱ We typically respond within <strong>8 hours</strong>.</p>
 
         <div className="max-w-xl mx-auto bg-white rounded-2xl shadow p-8 text-left">
           <form action="https://formspree.io/f/xlgwrzor" method="POST" className="space-y-4">
             <div>
               <label className="block font-semibold mb-1">Name</label>
-              <input type="text" name="name" required className="w-full border rounded-xl p-3" />
+              <input type="text" className="w-full border rounded-xl p-3" placeholder="Your name" />
             </div>
             <div>
               <label className="block font-semibold mb-1">Email</label>
-              <input type="email" name="email" required className="w-full border rounded-xl p-3" />
+              <input type="email" className="w-full border rounded-xl p-3" placeholder="you@example.com" />
             </div>
             <div>
               <label className="block font-semibold mb-1">How can we help?</label>
-              <textarea name="message" required className="w-full border rounded-xl p-3" rows={4}></textarea>
+              <textarea className="w-full border rounded-xl p-3" rows={4} placeholder="Describe the issue or service you need"></textarea>
             </div>
             <button type="submit" className="w-full bg-blue-600 text-white font-semibold py-3 rounded-2xl hover:scale-105 transition">
-              Send Request
+              Request a Quote
             </button>
           </form>
         </div>
 
         <p className="mt-10 font-semibold">
-          📧 bubsithub@outlook.com<br />
-          💬 Facebook: BubsIT Hub<br />
-          📍 Cornwall & Surrounding Area
+          📧 <a href="mailto:bubsithub@outlook.com" className="text-blue-600 hover:underline">bubsithub@outlook.com</a><br />
+          💬 <a href="https://www.facebook.com/profile.php?id=61586952975446" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Message us on Facebook</a><br />
+          📍 Serving Cornwall, Long Sault, Ingleside, Morrisburg, Lancaster, Maxville and Alexandria 
         </p>
       </section>
 
       {/* Footer */}
       <footer className="bg-gray-800 text-gray-300 text-center py-6">
-        <p>© {new Date().getFullYear()} BubsIT Hub. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Bubs IT Hub. All rights reserved.</p>
       </footer>
     </div>
   );
