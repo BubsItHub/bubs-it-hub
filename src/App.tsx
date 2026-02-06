@@ -4,7 +4,7 @@ export default function App() {
     <div className="min-h-screen bg-gray-50 text-gray-800">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20 px-6 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">BubsIT Hub</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">Bubs IT Hub</h1>
         <p className="text-xl mb-6">Friendly, Reliable Computer Help — Right When You Need It</p>
         <p className="max-w-2xl mx-auto mb-8">
           Local computer repair, setup, and tech support for homes and small businesses in Ontario.
@@ -86,9 +86,9 @@ export default function App() {
       {/* About Section */}
       <section className="bg-white py-16 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6">About BubsIT Hub</h2>
+          <h2 className="text-3xl font-bold mb-6">About Bubs IT Hub</h2>
           <p className="text-lg mb-10">
-            BubsIT Hub is a locally owned computer service company focused on honest advice, clear communication,
+            Bubs IT Hub is a locally owned computer service company focused on honest advice, clear communication,
             and friendly support. We believe technology should work for you — not against you.
           </p>
 
@@ -145,7 +145,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="bg-gray-800 text-gray-300 text-center py-6">
-        <p>© {new Date().getFullYear()} BubsIT Hub. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Bubs IT Hub. All rights reserved.</p>
       </footer>
     </div>
   );
