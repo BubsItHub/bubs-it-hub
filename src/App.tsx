@@ -55,7 +55,7 @@ export default function App() {
             </h2>
           </div>
           <p className="text-lg mb-8 max-w-3xl mx-auto">
-            We would love to partner with retirement homes, assisted living facilities and senior communities in Cornwall and surrounding areas to provide friendly, hands‑on technology help. Facilities, Organizations and Communities can book our time, allowing seniors to receive support at no cost to them.
+            We would love to partner with senior communities in Cornwall and surrounding areas to provide friendly, hands‑on technology help.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
@@ -69,7 +69,7 @@ export default function App() {
             </div>
             <div className="bg-white rounded-2xl shadow p-6">
               <h4 className="font-semibold mb-2">✔ Fully Mobile</h4>
-              <p>We come directly to your facility and spend the day helping residents and seniors where they’re most comfortable.</p>
+              <p>We come directly to you and spend our time assisting those who have tech issues or questions.</p>
             </div>
           </div>
 
