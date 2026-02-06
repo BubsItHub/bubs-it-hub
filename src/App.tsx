@@ -55,7 +55,7 @@ export default function App() {
             </h2>
           </div>
           <p className="text-lg mb-8 max-w-3xl mx-auto">
-            We partner with retirement homes, long‑term care facilities, and senior communities in the Cornwall area to provide friendly, hands‑on technology help. Facilities book our time, allowing residents to receive support at no cost to them.
+            We would love to partner with retirement homes, assisted living facilities and senior communities in Cornwall and surrounding areas to provide friendly, hands‑on technology help. Facilities, Organizations and Communities can book our time, allowing seniors to receive support at no cost to them.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
