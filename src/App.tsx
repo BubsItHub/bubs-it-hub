@@ -5,7 +5,7 @@ export default function App() {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Bubs IT Hub</h1>
-        <p className="text-xl mb-6"> Friendly, Affordable, Reliable And Fully Mobile</p>
+        <p className="text-xl mb-6"> Friendly.Affordable.Reliable.Fully Mobile</p>
         <p className="max-w-2xl mx-auto mb-8">
           Local computer repair, setup, and tech support for Homes and Communities in Cornwall and Surrounding areas.
         </p>
