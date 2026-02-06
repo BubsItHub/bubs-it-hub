@@ -64,7 +64,7 @@ export default function App() {
               <p>Personal assistance with computers, tablets, phones, email, and everyday tech questions.</p>
             </div>
             <div className="bg-white rounded-2xl shadow p-6">
-              <h4 className="font-semibold mb-2">✔ Calm & Patient Support</h4>
+              <h4 className="font-semibold mb-2">✔ Friendly & Patient Support</h4>
               <p>No rushing, no pressure — just clear explanations at a comfortable pace.</p>
             </div>
             <div className="bg-white rounded-2xl shadow p-6">
